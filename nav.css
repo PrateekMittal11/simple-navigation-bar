@@ -1,0 +1,31 @@
+ul{
+	list-style-type:none;
+	background-color:black;
+	border:3px solid black;
+	height:53px;
+	margin:0;
+	padding:0;
+}
+li{
+	float:left;
+	border-left:2px solid blue;
+}
+li a{
+	display:block;
+	text-decoration:none;
+	font-family:monospace;
+	font-size:20px;
+	color:white;
+	padding:15px 25px;
+}
+li a:hover{
+	background-color:blue;
+	color:black;
+}
+li:first-child{
+	margin-right:570px;
+	border:none;
+}
+li:last-child{
+	border-right:2px solid blue;
+}
